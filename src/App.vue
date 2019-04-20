@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-navbar variant="primary" type="dark">
+      <b-navbar-brand href="#">TinkerHub</b-navbar-brand>
+    </b-navbar>
+    <b-container class="top-padding">
+      <MentorsList></MentorsList>
+    </b-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MentorsList from './components/MentorsList.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MentorsList
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.top-padding {
+  padding-top: 30px;
 }
 </style>
