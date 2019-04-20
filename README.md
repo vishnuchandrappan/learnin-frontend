@@ -1,4 +1,8 @@
-# tinkerhub
+# Learn In - TinkerHub
+
+## Preview
+This is a work in progress. The initial proof of concept looked like this:
+![Preview](https://raw.githubusercontent.com/tinkerhub-org/learnin-frontend/master/preview.png)
 
 ## Project setup
 ```
