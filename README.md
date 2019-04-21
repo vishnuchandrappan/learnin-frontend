@@ -31,3 +31,6 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## About
+The project uses a Google sheet as input in which details of Mentors are getting filled from a Google Form. We fetch the sheet as a json file. Then used the json as input for the cards.
